@@ -17,3 +17,4 @@ class ProductRepository:
 
     def list_all(self) -> List[Product]:
         return list(self._db.values())
+

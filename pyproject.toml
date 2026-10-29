@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-ecommerce"
-version = "1.0.0"
-description = "E-Commerce Order Management API Sample for Inova Code Architectural Validation"
+version = "2.0.0"
+description = "E-Commerce Order Management API v2 (Conformant & Refactored) for Inova Code Architectural Validation"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -17,3 +17,4 @@ dependencies = [
 
 [tool.setuptools.packages.find]
 where = ["src"]
+

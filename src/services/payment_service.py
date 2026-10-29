@@ -9,3 +9,4 @@ class PaymentService:
             return False
         # Simulação de gateway de pagamento aprovado
         return True
+

@@ -28,3 +28,4 @@ class OrdersRouter:
             "status": order.status.value,
             "total_amount": str(order.total_amount),
         }
+

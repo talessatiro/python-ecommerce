@@ -1,1 +1,2 @@
-# Python E-Commerce Sample Package
+# Root package
+

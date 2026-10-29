@@ -1,1 +1,2 @@
-# API subpackage
+# API package
+

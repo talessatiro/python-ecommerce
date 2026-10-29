@@ -8,12 +8,12 @@ class OrderRepository:
     def __init__(self) -> None:
         self._db: Dict[str, Order] = {}
 
-    def save(self, order: Order) -> Order:
+    def save(self, order: Order) -> None:
         self._db[order.id] = order
-        return order
 
     def find_by_id(self, order_id: str) -> Optional[Order]:
         return self._db.get(order_id)
 
-    def list_by_customer(self, customer_id: str) -> List[Order]:
-        return [o for o in self._db.values() if o.customer_id == customer_id]
+    def list_all(self) -> List[Order]:
+        return list(self._db.values())
+

@@ -41,3 +41,4 @@ class Order:
         if self.status != OrderStatus.PENDING:
             raise ValueError(f"Pedido no status {self.status} não pode ser pago.")
         self.status = OrderStatus.PAID
+
