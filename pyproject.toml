@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-ecommerce"
+version = "1.0.0"
+description = "E-Commerce Order Management API Sample for Inova Code Architectural Validation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110.0",
+    "pydantic>=2.6.0",
+    "sqlalchemy>=2.0.0",
+    "uvicorn>=0.28.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
